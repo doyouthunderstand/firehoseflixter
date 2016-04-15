@@ -77,3 +77,20 @@ body {
   padding:8px;
   margin:10px;
 }
+
+.student-index-title {
+   font-family: 'aaarghnormal', sans-serif; 
+   font-weight: 200;
+   text-shadow: rgba(0,0,0,0.95) 1px 1px;
+   color: white;
+}
+
+.course-description {
+   -webkit-box-shadow:1px 1px 2px 0 #d0d0d0;
+  -moz-box-shadow:1px 1px 2px 0 #d0d0d0;
+  box-shadow:1px 1px 2px 0 #d0d0d0;
+  background: #fff;
+  border:1px solid #ccc;
+  border-color:#e4e4e4 #bebebd #bebebd #e4e4e4; 
+  padding:20px;
+}
