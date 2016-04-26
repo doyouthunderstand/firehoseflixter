@@ -69,10 +69,44 @@
   
   <div id="footer">
     <div class="container">
-      <div class="pull-left">
+      <div class="col-xs-12 col-sm-3">
         <b>Teachers</b>
         <br />
         <%= link_to 'Teach a Course', new_instructor_course_path %>
+        <br />
+        <%= link_to 'My Dashboard', dashboard_path %>
+      </div>
+      <div class="col-xs-12 col-sm-3">
+        <b>About</b>
+        <br />
+        <%= link_to 'Team', '#' %>
+        <br />
+        <%= link_to 'Careers', '#' %>
+        <br />
+        <%= link_to 'Privacy Policy', '#' %>
+      </div>
+      <div class="col-xs-12 col-sm-3">
+        <b>Contact</b>
+        <br />
+        doyouthunderstand@gmail.com
+        <br />
+        1 Place Drive
+        <br />
+        Cool Town NJ, 08021
+      </div>
+      <div class="col-xs-12 col-sm-3 social">
+        <b>Social</b>
+        <br />
+        <br />
+        <%= link_to 'https://github.com/doyouthunderstand' do %>
+          <%= image_tag 'github.png', class: 'social-button' %>
+        <% end %>
+        <%= link_to 'https://www.facebook.com/brandonhasmadswag' do %>
+          <%= image_tag 'facebook.png', class: 'social-button' %>
+        <% end %>
+        <%= link_to 'https://www.instagram.com/iplygtr47/' do %>
+          <%= image_tag 'instagram.png', class: 'social-button' %>
+        <% end %>
       </div>
       <br />
       <div class="pull-right credit-link">
